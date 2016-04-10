@@ -24,6 +24,7 @@ $car = mysqli_fetch_assoc($sql)
 <body>
 <?php require('header.php');?>
 
-<?=$car['name']?>
+<?=$car['name']?><br>
+<img src="/assets/img/cars/<?=$car['picture']?>" width="320" height="200" />
 </body>
 </html>
