@@ -1,8 +1,8 @@
 
 <div class="logo-header">
-  <a href="#"><img src="img/logo.png" width="200" ></a>
+  <a href="#"><img src="assets/img/logo.png" width="200" ></a>
   <a class="center-logo" href="/index.php">
-    <img  src="img/logo.png" width="200" >
+    <img  src="assets/img/logo.png" width="200" >
   </a>
 </div>
 
