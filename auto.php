@@ -1,14 +1,11 @@
 <?php
+$car_id = $_GET['id'];
+
 $link = mysqli_connect('localhost', 'carshop', 'carshop', 'carshop');
-$sql = mysqli_query($link, 'SELECT * FROM `cars`');
-
-$cars = [];
-while($row = mysqli_fetch_assoc($sql)){
-  $cars[] = $row;
-}
-
-
+$sql = mysqli_query($link, "SELECT * FROM `cars` WHERE id=$car_id");
+$car = mysqli_fetch_assoc($sql)
 ?>
+
 <html>
  <head>
 
@@ -27,10 +24,6 @@ while($row = mysqli_fetch_assoc($sql)){
 <body>
 <?php require('header.php');?>
 
-<?php foreach($cars as $car): ?>
-  <div>
-  <a href="/auto.php?id=<?= $car['id']?>"><?= $car['name']?></a>
-  </div>
-<?php endforeach ?>
+<?=$car['name']?>
 </body>
 </html>
