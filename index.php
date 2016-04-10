@@ -14,6 +14,7 @@
 
  </head>
 <body>
+  хуй
 
 <a href="/index.php"> <img  src="img/logo.png" width="200" ></a>
 
