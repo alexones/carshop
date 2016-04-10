@@ -9,7 +9,7 @@
     color: #fc0; /* Цвет текста */
    }
   </style>
-  <link rel="stylesheet" type="text/css" href="dopstyle.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/dopstyle.css">
  </head>
 <body>
 
