@@ -1,3 +1,14 @@
+<?php
+$link = mysqli_connect('localhost', 'carshop', 'carshop', 'carshop');
+$sql = mysqli_query($link, 'SELECT * FROM `cars`');
+
+$cars = [];
+while($row = mysqli_fetch_assoc($sql)){
+  $cars[] = $row;
+}
+
+
+?>
 <html>
  <head>
 
@@ -14,16 +25,12 @@
 
  </head>
 <body>
-
-
 <?php require('header.php');?>
 
-<h2>НОВАЯ AUDI A4  </h2>
-<iframe width="720" height="360" src="https://www.youtube.com/embed/Zi6DiKfLtsM" frameborder="1" allowfullscreen></iframe>
-
-<br>
-<br>
-<br>
-у Тебя есть возможность выиграть автомобиль!!!!
+<?php foreach($cars as $car): ?>
+  <div>
+    <?=$car['name']?>
+  </div>
+<?php endforeach ?>
 </body>
 </html>
