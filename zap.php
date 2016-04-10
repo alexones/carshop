@@ -13,8 +13,8 @@
  </head>
 <body>
 
-<a href="/index.php"> <img  src="img/logo.png" width="200" ></a>
-  <?php require('menu.php');?>
+
+  <?php require('header.php');?>
   <table width="50%" border=0 align="center" class="td_border">
 <tr>
 <td bgcolor='#2275AD'><p align="center" class="title">Для записи на приём, заполните следующую форму:</td>

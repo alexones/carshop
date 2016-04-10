@@ -1,3 +1,9 @@
+/* Utils  */
+.clear {
+  clear: both;
+}
+/* / Utils */
+
 .top-menu li{
     list-style:none;/*Убираем маркер*/
     display:inline-block;/*Выстраиваем пункты в ряд*/
@@ -20,7 +26,24 @@
     width:120px;/*Ширина выпадающего меню*/
     padding-top:3px;/*Отступ сверху у выпадающего меню*/
 }
+
 .top-menu li:hover ul{
     display:block;/*Показываем выпадающее меню при наведение*/
     left:0px;
 }
+
+/* Header */
+.logo-header {
+  position: relative;
+  height: 95px;
+}
+
+.logo-header a {
+  position: absolute;
+  left: 0;
+}
+
+.logo-header .center-logo {
+  left: 45%;
+}
+/* / Header */

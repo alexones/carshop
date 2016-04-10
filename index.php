@@ -14,11 +14,9 @@
 
  </head>
 <body>
-  хуй
 
-<a href="/index.php"> <img  src="img/logo.png" width="200" ></a>
 
-  <?php require('menu.php');?>
+<?php require('header.php');?>
 
 <h2>НОВАЯ AUDI A4  </h2>
 <iframe width="720" height="360" src="https://www.youtube.com/embed/Zi6DiKfLtsM" frameborder="1" allowfullscreen></iframe>
@@ -27,6 +25,5 @@
 <br>
 <br>
 у Тебя есть возможность выиграть автомобиль!!!!
-    </div>
 </body>
 </html>

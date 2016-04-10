@@ -13,8 +13,8 @@
  </head>
 <body>
 
-<a href="/index.php"> <img  src="img/logo.png" width="200" ></a>
-  <?php require('menu.php');?>
+
+  <?php require('header.php');?>
   Здесь инфо об поддержанных Автомобилях!
   <ul>
       <li><a href="">Audi</a></li>

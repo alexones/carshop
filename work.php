@@ -13,8 +13,8 @@
  </head>
 <body>
 
-<a href="/index.php"> <img  src="img/logo.png" width="200" ></a>
-  <?php require('menu.php');?>
+
+  <?php require('header.php');?>
   Здесь наши работы!
 </body>
 </html>

@@ -13,8 +13,8 @@
  </head>
 <body>
 
-<a href="/index.php"> <img  src="img/logo.png" width="200" ></a>
-  <?php require('menu.php');?>
+
+  <?php require('header.php');?>
   <font color="#97F57F">Контакты:</font><br><br>
 CARSHOP<br>
 Дмитров пр., 3.<br>

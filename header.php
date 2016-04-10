@@ -1,4 +1,11 @@
 
+<div class="logo-header">
+  <a href="#"><img src="img/logo.png" width="200" ></a>
+  <a class="center-logo" href="/index.php">
+    <img  src="img/logo.png" width="200" >
+  </a>
+</div>
+
 <div class="top-menu">
     <ul>
         <li><a href="/index.php">Главная</a></li>
