@@ -1,8 +1,8 @@
 
 <div class="logo-header">
-  <a href="#"><img src="assets/img/logo.png" width="200" ></a>
+  <a href="/index.php"><img src="assets/img/logo.png" width="200" ></a>
   <a class="center-logo" href="/index.php">
-    <img  src="assets/img/logo.png" width="200" >
+
   </a>
 </div>
 
@@ -17,7 +17,7 @@
             </ul>
         </li>
         <li><a href="/skut.php">Скутера</a></li>
-        <li><a href="/work.php">Наши работы</a></li>
+        <li><a href="/work2.php">Наши работы</a></li>
         <li><a href="/Service.php">Сервис и обслуживание</a></li>
         <li><a href="/contact.php">Контакты</a></li>
     </ul>

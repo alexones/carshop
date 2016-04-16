@@ -18,6 +18,6 @@
   Здесь наши работы!
   <p><img src="/assets/img/2.jpg"
   width="350" height="255" ><br>
-  Шкода Октавия А5.Разборка кузова...<a href="/work/work1.php"><font color="#ccc">СМОТРЕТЬ!</font></a></p>
+  Шкода Октавия А5.Разборка кузова...<a href="work1.php"><font color="#ccc">СМОТРЕТЬ!</font></a></p>
 </body>
 </html>
