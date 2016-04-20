@@ -1,46 +1,92 @@
-<?php
-$link = mysqli_connect('localhost', 'carshop', 'carshop', 'carshop');
-$sql = mysqli_query($link, 'SELECT * FROM `cars`');
-
-$cars = [];
-while($row = mysqli_fetch_assoc($sql)){
-  $cars[] = $row;
-}
-
-
-?>
 <html>
- <head>
+<head>
+  <title> PROSTO SITE </title>
 
-  <meta charset="utf-8">
-   <title>CARSHOP</title>
-   <style>
-   body {
-     font:normal 62.5%/1.5 Helvetica, Arial, sans-serif;
-     letter-spacing:0;
-     color:#434343;
-     background:#efefef url(../img/background.png) repeat top center;
-     padding:20px 0;
-     position:relative;
-     text-shadow:0 1px 0 rgba(255,255,255,.8);
-     -webkit-font-smoothing: subpixel-antialiased;
-   }
-
-  </style>
-  <link rel="stylesheet" type="text/css" href="assets/css/dopstyle.css">
-
- </head>
+  <link rel="stylesheet" type="text/css" href="css/menu.css">
+</head>
 <body>
-<?php require('header.php');?>
+  <?php require('head.php');?>
+  <div class="fondop">
 
-<?php foreach($cars as $car): ?>
-  <div>
-  <a href="/auto.php?id=<?= $car['id']?>"><?= $car['name']?></a>
-  </div>
-<?php endforeach ?>
-<div id="footer">
-
-  
+  <div class="boev1">
+  <a href="/monah.php"><img src="img/boev/1.jpg"
+    width="198" height="293" alt="lorem"></a>
+  <br><br>
+  <a href="/monah.php"><font color="#fff"><b><span style="color:#fff;" onmouseover="this.style.color='#F7ED25';" onmouseout="this.style.color='#fff';">И СОШЕЛ МОНАХ С ГОР</span></b></font></a>
 </div>
+
+  <div class="boev2">
+  <a href=""><img src="img/boev/2.jpeg"
+    width="198" height="293"  alt="lorem"></a>
+  <br><br>
+  <a href="" ><font color="#fff"><b><span style="color:#fff;" onmouseover="this.style.color='#F7ED25';" onmouseout="this.style.color='#fff';">РЕГИОН 13</span></b></font></a>
+
+
+ </div>
+
+ <div class="boev3">
+ <a href=""><img src="img/boev/3.jpg"
+   width="198" height="293"  alt="lorem"></a>
+ <br><br>
+ <a href="" ><font color="#fff"><b><span style="color:#fff;" onmouseover="this.style.color='#F7ED25';" onmouseout="this.style.color='#fff';">ХЕЛЕН КЕЛЛЕР ПРОТИВ НОЧНЫХ ВОЛКОВ</span></b></font></a>
+
+
+</div>
+<div class="boev4">
+<a href=""><img src="img/horror/1.jpg"
+  width="198" height="293"  alt="lorem"></a>
+<br><br>
+<a href="" ><font color="#fff"><b><span style="color:#fff;" onmouseover="this.style.color='#F7ED25';" onmouseout="this.style.color='#fff';">МОДЖИН</span></b></font></a>
+
+
+</div>
+<div class="boev5">
+<a href=""><img src="img/dram/1.jpg"
+  width="198" height="293"  alt="lorem"></a>
+<br><br>
+<a href="" ><font color="#fff"><b><span style="color:#fff;" onmouseover="this.style.color='#F7ED25';" onmouseout="this.style.color='#fff';">45 ЛЕТ</span></b></font></a>
+
+
+</div>
+
+<div class="boev6">
+<a href=""><img src="img/comedy/1.jpg"
+  width="198" height="293"  alt="lorem"></a>
+<br><br>
+<a href="" ><font color="#fff"><b><span style="color:#fff;" onmouseover="this.style.color='#F7ED25';" onmouseout="this.style.color='#fff';">НОВЕНЬКАЯ</span></b></font></a>
+
+
+</div>
+<div class="boev7">
+<a href="panda.php"><img src="img/mult/2.jpg"
+  width="198" height="293"  alt="lorem"></a>
+<br><br>
+<a href="panda.php" ><font color="#fff"><b><span style="color:#fff;" onmouseover="this.style.color='#F7ED25';" onmouseout="this.style.color='#fff';">КУНГ ФУ ПАНДА ЗАГАДКИ СВИТКА</span></b></font></a>
+
+
+</div>
+<div class="boev8">
+<a href=""><img src="img/mult/1.jpg"
+  width="198" height="293"  alt="lorem"></a>
+<br><br>
+<a href="" ><font color="#fff"><b><span style="color:#fff;" onmouseover="this.style.color='#F7ED25';" onmouseout="this.style.color='#fff';">НЕВЕРОЯТНЫЙ БЛИНКИ</span></b></font></a>
+
+
+</div>
+<div class="boev9">
+<a href=""><img src="img/comedy/2.jpg"
+  width="198" height="293"  alt="lorem"></a>
+<br><br>
+<a href="" ><font color="#fff"><b><span style="color:#fff;" onmouseover="this.style.color='#F7ED25';" onmouseout="this.style.color='#fff';">В АКТИВНОМ ПОИСКЕ</span></b></font></a>
+
+
+</div>
+</div>
+
+
 </body>
+
+
+
+
 </html>
